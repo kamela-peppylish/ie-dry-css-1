@@ -1,0 +1,175 @@
+/*display and visibility hidden*/
+.review-slider .flex-control-paging{display: none;}
+/*overflow*/
+html,body{overflow-x: hidden;}
+body{overflow-y: hidden;}
+.related-post-block,.screen-reader-text{overflow: hidden;}
+/*opacity*/
+.mask,.overlay,.close-popup-box{opacity: 0}
+.btn-download:hover,.portfolio-item:hover .mask,
+.theme-btn-dark:hover,.action-btn:hover,.btn-download:hover
+{opacity: 1;}
+/*position*/
+.more-post-share,.mask,.portfolio-item-title,#workflow .flex-control-nav,
+.ie-icon,.ie-contact-info img,.price-tag,.price-tag-bg,.popup-box .order-btn,.action-group,
+.round-box,.screen-reader-text
+{position: absolute;}
+.fixed-menu,.popup-box,.popup-overlay,.iso-pdf{position:fixed;}
+body,.footer,.flex-active-slide,.volume-block,.ie-support-block,.ie-support,.ie-supports .btn-support,.portfolio-item,
+.popup-box-img,.popup-box-content,.log-posts,.related-post-block,.services-gallery li,.service-order,#workflow,.features-item,.call-my-modal,
+.review-wraper
+{position: relative;}
+/*float*/
+.tagline-group,.ie-hotline,.pricing-tbl-sm,.pricing-tbl-col{float:left;}
+#navcollapse,.arw-stroke,.startup-img,
+.main-nav,.service-sm-dark img,.btn-plan i,.pricing-tbl-lg{
+    float: right;
+}
+
+/*z-index*/
+body.modal-open div.modal-backdrop,div.modal div.modal-backdrop{z-index: 0;}
+.price-tag-bg,.ie-flexslider .flex-prev,.ie-flexslider .flex-next{z-index:1}
+.price-tag{z-index:2}
+.ie-support,.mask{z-index: 99;}
+.iso-pdf,.screen-reader-text:focus,.fixed-menu{z-index: 100;}
+.popup-box-wraper,.popup-overlay{z-index: 4001;}
+.popup-box-content,.popup-box {z-index:4002;}
+
+ 
+/*clear*/
+.clear{clear: both;}
+/*display*/
+.short-spanl,
+.trial-pop .trial-title,.trial-pop .close-btn,.test-btn,
+.mask,.overlay,.partner-link,.fast-featur,
+.dashed,.ie-icon,.discount-block-icon,.lay-linee-icon,.pricing-tbl-icon,.grid-hl,.support-mega-icon,
+.round-box,.lay-line,.screen-reader-text:focus,
+.ie-flexslider .flex-prev,.ie-flexslider .flex-next,
+.this-post img,.recent-post-date
+{   display: block;}
+.vl,.site-logo,.losted-img{display: inline-block;}
+.license-td,.action-list-item-td{display: table-cell;}
+.services-gallery,.popup-box-content{display: -webkit-box;display: -ms-flexbox;display: flex;}
+/*max-width*/
+.this-post figure,.this-post img,.recent-post-li img{max-width: 100%;}
+/*top*/
+.mask,.ie-icon,.ie-contact-info img,.overlay,.price-tag,.price-tag-bg,.fixed-menu {top: 0;}
+/*left*/
+.footer,.popup-box,.popup-box .order-btn,.mask, .ie-contact-info img,
+.popup-overlay,.service-order-img img,.overlay{  left: 0;}
+/*width*/
+body,.ie-contact-form .wpcf7-form-control,.related-post img,.recent-post-img,.license-box,.action-meta-box,.action-rating,.action-download-stat,.license-td,.action-list-item-td,.mask,.portfolio-item-title,.popup-box,
+.services-gallery,.services-gallery li img,.overlay,.popup-overlay,.fixed-menu,.my-plan .active,.pricing-tbl 
+{width: 100%;}
+.portfolio-item img,.theme-btn-dark,.ie-pricing .order-btnm.screen-reader-text:focus,.service-order-img img{
+    width: auto;
+}
+/*height*/
+body,.footer,.portfolio-item img,.mask,.overlay,.popup-overlay,.popup-box-img img,.workflow-block{height: 100%;}
+.workflow-block,.flex-wraper{ height: 100vh;   }
+.this-post img,.recent-post-li img,#workflow .flex-control-nav,.tab-content .pricing-tbl-head,.screen-reader-text:focus{height: auto;}
+/*margin*/
+body,.page-header,.time-lbl,.price-lbl,.btn-plan,.price-lbl-title,.post-date,.service-order-action ul{margin: 0;}
+.ie-support,.partner-link,.container-fluid,.order-btn,.features-item-icon,.popup-box-content,.discount-block-icon,.features-item-head img,
+.fast-feature-icon,.review-wraper img,.lay-line,.partner-link
+{margin: 0 auto;}
+/*padding*/
+body,.footer-link-block{padding:0}
+/*list style */
+ul li{list-style: none;}
+.this-post ul li{list-style: disc;}
+/*background*/
+/*border*/
+.ie-contact-form .wpcf7-form-control:focus,#faqAccordion .panel,.btn-plan,.ie-pricing .order-btn,.footer-link-block a{ border: none;}
+/*transform*/
+/*box shadow*/
+
+/*font-size*/
+html,body{font-size: 16px;}
+.widget .cat-item a:before
+{font-size: .7rem;} /*font-size: 11px*/
+h6{font-size: 0.8125rem;}/*font-size: 13px*/
+.service-details-link,.step-txt .flex-direction-nav .flex-next{font-size: 0.875rem;}/*font-size: 14px*/
+.navbar .order-btn>a{font-size: .9375rem;}
+.this-post-info p,.this-post-info a,.this-post-date,.share-icon,
+#widget-area .cat-item a,.recent-post-title,.action-meta-td,
+.btn-download,.action-right,.portfolio-item-title h4,
+.ie-contact-form .wpcf7-form-control,.ie-contact-form label,
+.service-order-txt,.ie-vision .features-item-title, .ie-vision .features-item p,
+.btn-tab,.service-order .order-btn
+{font-size: 1rem;}
+.ie-support-block p {
+    font-size: 1.1rem;
+}
+.footer-link-block,.discount-block-txt,.discount-block-list li{font-size: 1.125rem}/*font-size: 18px;*/
+.recent-post-date,.mask p,.time-lbl,.price-lbl
+{font-size: 1.2rem;}
+#partners-sec p,.volume-block-txt,.popup-box-details p,
+.service-order-head p,.workflow-tagline,.ie-location,.fast-feature,.ecomrc-txt
+{font-size: 1.25rem;}
+.more-post-share .share-icon,.theme-btn-dark{
+    font-size: 1.3rem;
+}
+
+.widget-title,.license-title
+{font-size: 1.34rem;}
+.btn-support,quote-btn,.acnt-btn,.lite-txt,.service-sm-tagline,
+.review-txt,.call-my-modal,.features-item-title,.discount-block-title,.post-date
+{font-size: 1.375rem;}
+.page-banner-tagline,.close-btn,.ing:before,.price-lbl-title,.print-btn i,.share-icon,.log-year,.service-order-title,.action-btn
+{font-size: 1.5rem;}
+.ie-achievement-txt,.review-name,.time-feature-block-txt{font-size: 1.5625rem;}
+.login-menu,.price-tag h4,li,p{font-size: 1.0625rem;}/*font-size: 17px;*/
+
+.trial-block-title,.this-post-title,.license-price,
+.ie-support-title,.ie-contact-form .wpcf7-submit,.test-btn,
+.order-btn,#entry-content p,.more-link,.post-title-link
+{font-size: 1.875rem;}
+.price-tag span{font-size: 1.9375rem;}
+.policy-title,.ie-contact-title,.close-popup-box,.footer-mid-item i,.play-icon,footer .share-icon,.trial-block-title,.this-post-title,.license-price{font-size:2rem;}
+
+.more-post-title{font-size: 2.77rem;}
+.volume-block-title,.payment-method-item i,.page-header,.post-count,.time-feature-block-title{font-size: 3rem;}
+.ie-achievement-count,.lite-txt span{font-size: 3.125rem;}
+.popup-box-title{font-size: 3.5rem;}
+.ie-support-i 
+{ font-size: 4rem;}
+#partners-sec h3,.page-banner-title,.page-main-title,.service-sm-title,.ecomrc-title{ font-size: 4.375rem;}
+.review-icon,.review-title,.support-mega-icon{
+    font-size: 5rem;}
+.big-icon{
+    font-size: 10rem;
+}
+/* line-height*/
+.recent-post-title,{line-height: 1rem;}
+p{
+    line-height: 1.66rem;
+}
+.discount-block-title,.license-title{line-height:1.625rem;}
+.popup-box-details p,.features-item{line-height:1.9rem;}
+.discount-block-txt,.discount-block-list,.ecomrc-txt{line-height:2.25rem;}
+.entry-title,.more-post-title{line-height: 3rem;}
+.ecomrc-title{line-height:5.625rem;}
+.workflow-title{line-height: 6.25rem;}
+
+/*font-weight*/
+.twin-service,.recent-post-title,.action-meta-name,.license-title,.license-price,
+.btn-download,.mask p,.portfolio-item-title h4,.support-contact,.quote-btn,.acnt-btn,
+.theme-btn-dark,.ie-contact-form .wpcf7-submitm,.ie-location,.fast-feature,.test-btn,.price-lbl-title,.navbar .order-btn>a,
+.ie-pricing:hover .price-lbl,.menu-item a,.popup-box-title,.call-my-modal,.features-item-title,.order-btn,
+.service-details-link,.price-tag span,.flex-next,.discount-block-title,.page-header,.post-count,.log-year,.intro-block-txt a,.faq-block-title,.sec-title,.bold-em,strong.search-highlight,.action-btn,.read-more,
+.ecmrc-name,.entry-title
+{font-weight: bold;}
+.discount-block-txt,.discount-block-list{font-weight: normal;}
+#partners-sec p,.service-order-title,.service-order-txt{font-weight: 300;}
+/*font-family*/
+
+/*content*/
+/*text-align*/
+/*text-transform*/
+/*font-style*/
+/*color*/
+/*text-shadow*/
+/*letter-spacing*/
+/*animation*/
+/*transition
