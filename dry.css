@@ -90,65 +90,52 @@ html,body{font-size: 16px;}
 {font-size: .7rem;} /*font-size: 11px*/
 h6{font-size: 0.8125rem;}/*font-size: 13px*/
 .service-details-link,.step-txt .flex-direction-nav .flex-next{font-size: 0.875rem;}/*font-size: 14px*/
-.navbar .order-btn>a{font-size: .9375rem;}
+.navbar .order-btn>a{font-size: .9375rem;}/*font-size: 15px*/
 .this-post-info p,.this-post-info a,.this-post-date,.share-icon,
 #widget-area .cat-item a,.recent-post-title,.action-meta-td,
 .btn-download,.action-right,.portfolio-item-title h4,
 .ie-contact-form .wpcf7-form-control,.ie-contact-form label,
 .service-order-txt,.ie-vision .features-item-title, .ie-vision .features-item p,
-.btn-tab,.service-order .order-btn
+.btn-tab,.service-order .order-btn,#widget-area .cat-item a,.action-right,.portfolio-item-title h4
 {font-size: 1rem;}
-.ie-support-block p {
-    font-size: 1.1rem;
-}
+.login-menu,.price-tag h4,li,p{font-size: 1.0625rem;}/*font-size: 17px;*/
+.ie-support-block p {font-size: 1.1rem;}/*font-size: 17.6px*/
 .footer-link-block,.discount-block-txt,.discount-block-list li{font-size: 1.125rem}/*font-size: 18px;*/
 .recent-post-date,.mask p,.time-lbl,.price-lbl
-{font-size: 1.2rem;}
+{font-size: 1.2rem;}/*font-size: 19px*/
 #partners-sec p,.volume-block-txt,.popup-box-details p,
 .service-order-head p,.workflow-tagline,.ie-location,.fast-feature,.ecomrc-txt
-{font-size: 1.25rem;}
-.more-post-share .share-icon,.theme-btn-dark{
-    font-size: 1.3rem;
-}
-
-.widget-title,.license-title
-{font-size: 1.34rem;}
+{font-size: 1.25rem;}/*font-size: 20px*/
+.more-post-share .share-icon,.theme-btn-dark,.widget-title,.license-title{font-size: 1.3rem;}/*font-size: 20.8px*/
 .btn-support,quote-btn,.acnt-btn,.lite-txt,.service-sm-tagline,
 .review-txt,.call-my-modal,.features-item-title,.discount-block-title,.post-date
-{font-size: 1.375rem;}
+{font-size: 1.375rem;}/*font-size: 22px*/
 .page-banner-tagline,.close-btn,.ing:before,.price-lbl-title,.print-btn i,.share-icon,.log-year,.service-order-title,.action-btn
-{font-size: 1.5rem;}
-.ie-achievement-txt,.review-name,.time-feature-block-txt{font-size: 1.5625rem;}
-.login-menu,.price-tag h4,li,p{font-size: 1.0625rem;}/*font-size: 17px;*/
+{font-size: 1.5rem;}/*font-size: 24px*/
+.ie-achievement-txt,.review-name,.time-feature-block-txt{font-size: 1.5625rem;}/*font-size: 25px*/
 
 .trial-block-title,.this-post-title,.license-price,
 .ie-support-title,.ie-contact-form .wpcf7-submit,.test-btn,
 .order-btn,#entry-content p,.more-link,.post-title-link
-{font-size: 1.875rem;}
-.price-tag span{font-size: 1.9375rem;}
-.policy-title,.ie-contact-title,.close-popup-box,.footer-mid-item i,.play-icon,footer .share-icon,.trial-block-title,.this-post-title,.license-price{font-size:2rem;}
+{font-size: 1.875rem;}/*font-size: 30px*/
+.price-tag span{font-size: 1.9375rem;}/*font-size: 31px*/
+.policy-title,.ie-contact-title,.close-popup-box,.footer-mid-item i,.play-icon,footer .share-icon,.trial-block-title,.this-post-title,.license-price{font-size:2rem;}/*font-size: 32px*/
 
-.more-post-title{font-size: 2.77rem;}
-.volume-block-title,.payment-method-item i,.page-header,.post-count,.time-feature-block-title{font-size: 3rem;}
-.ie-achievement-count,.lite-txt span{font-size: 3.125rem;}
-.popup-box-title{font-size: 3.5rem;}
-.ie-support-i 
-{ font-size: 4rem;}
-#partners-sec h3,.page-banner-title,.page-main-title,.service-sm-title,.ecomrc-title{ font-size: 4.375rem;}
-.review-icon,.review-title,.support-mega-icon{
-    font-size: 5rem;}
-.big-icon{
-    font-size: 10rem;
-}
+.more-post-title{font-size: 2.77rem;}/*font-size: 44px*/
+.volume-block-title,.payment-method-item i,.page-header,.post-count,.time-feature-block-title{font-size: 3rem;}/*font-size: 48px*/
+.ie-achievement-count,.lite-txt span{font-size: 3.125rem;}/*font-size: 50px*/
+.popup-box-title{font-size: 3.5rem;}/*font-size: 56px*/
+.ie-support-i { font-size: 4rem;}/*font-size: 64px*/
+#partners-sec h3,.page-banner-title,.page-main-title,.service-sm-title,.ecomrc-title{ font-size: 4.375rem;}/*font-size: 70px*/
+.review-icon,.review-title,.support-mega-icon{font-size: 5rem;}/*font-size: 80px*/
+.big-icon{font-size: 10rem;}/*font-size: 160px*/
 /* line-height*/
-.recent-post-title,{line-height: 1rem;}
-p{
-    line-height: 1.66rem;
-}
-.discount-block-title,.license-title{line-height:1.625rem;}
+.recent-post-title{line-height: 1rem;}
+p,.discount-block-title,.license-title{line-height: 1.8675rem;}
 .popup-box-details p,.features-item{line-height:1.9rem;}
-.discount-block-txt,.discount-block-list,.ecomrc-txt{line-height:2.25rem;}
+.discount-block-txt,.discount-block-list,.ecomrc-txt{line-height:2.1rem;}
 .entry-title,.more-post-title{line-height: 3rem;}
+.ie-support-i {font-size: 4rem;}
 .ecomrc-title{line-height:5.625rem;}
 .workflow-title{line-height: 6.25rem;}
 
@@ -163,13 +150,67 @@ p{
 .discount-block-txt,.discount-block-list{font-weight: normal;}
 #partners-sec p,.service-order-title,.service-order-txt{font-weight: 300;}
 /*font-family*/
-
+body{font-family: 'Palanquin', sans-serif;}
+h1,.order-btn{font-family: 'Raleway', sans-serif;}
+.flex-wraper{font-family: 'Quattrocento', serif;}
+.share-icon,.widget .cat-item a:before,.ing:before{font-family: FontAwesome;}
 /*content*/
 /*text-align*/
+.ie-pricing,.order-btn,.center,.footer-mid-item,.features-item-body,.call-my-modal-wraper,.discount-block-title,.log-year,.features-item,.support-main-block,.fast-feature-item,.tnc-topic-list..action-btn,
+.features-item p,.features-item .more-link,.price-tag,.ecomrc-block,.flex-wraper,
+.navbar-nav>li,.widget-title,.download-box,.btn-download,.action-right,.ie-support,
+.portfolio-item,.mask p,.portfolio-item-title,#partners-sec,#partners-sec h3,.btn-trial-a,.volume-block-title,.workflow-head,#workflow .flex-control-nav,.theme-btn-dark,.page-banner,.ie-contact-form .wpcf7-submit,
+.page-main-head,.service-order-head,#thnku-main,.close-menu,.review-wraper
+{text-align: center;}
+.login-menu, .service-order-action{text-align: right;}
+#about-main .page-main-txt{text-align: justify;}
 /*text-transform*/
+.menu-item a,.call-my-modal-wraper,.order-btn,.tutorial-link,#partners-sec h3{text-transform: uppercase;}
+.btn-plan{text-transform: capitalize!important;}
 /*font-style*/
+.read-more,.ecmrc-name,.trial-block-title,.this-post-date,.recent-post-date,
+.support-contact,.quote-btn,.acnt-btn,.volume-block-txt,.page-banner-tagline,
+.ie-contact-form .wpcf7-submit,.service-sm-tagline,.test-btn,.bold-em,
+.free-trial-txt
+{ font-style: italic;}
+.volume-block-txt span{font-style: normal;}
 /*color*/
-/*text-shadow*/
-/*letter-spacing*/
-/*animation*/
-/*transition
+.btn-tab,.btn-tab:hover,.btn-tab:focus,.btn-tab:active,.btn-download,.btn-download:hover,
+.action-btn,.action-btn:hover,.acnt-btn,.acnt-btn:hover,.quote-btn,.quote-btn:hover,
+.btn-support,.theme-btn-dark,.theme-btn-dark:hover,.test-btn,.test-btn:hover,.order-btn,
+.navbar .order-btn>a,.navbar .order-btn:hover,.ie-pricing:hover .order-btn,.ie-pricing .order-btn:hover,
+.time-feature-block-title,.log-year,
+.volume-block,.volume-block-txt,.ie-supports .features-item:hover .btn-support,.mask p,.portfolio-item-title h4,.ie-achievement-txt,.page-banner-title,.page-banner-tagline,
+.ie-contact-form .wpcf7-submit,.fast-feature,.review-txt,
+.review-title,.categories .semi-title, .cat-item a,
+.call-my-modal,.price-tag,.footer-link-block-title,strong.search-highlight
+{color: #fff;}
+li,p,.read-more,.ecomrc-txt,::-moz-selection,::selection,#widget-area .cat-item a,#partners-sec p,.workflow-tagline,.ie-contact-form label,.time-lbl,.price-lbl{   color: #434244;}
+.ecomrc-title,.trial-block-title,.this-post-title,.widget-title,
+.recent-post-title,.more-post-title,.license-title,#partners-sec h3,.page-main-title
+{ color: #2b2f48;}
+.time-feature-block-txt{color:#fdc689;}
+footer .share-icon,.this-post-date,.footer p,.payment-icon i,.footer-link-block a,.footer-link-block li,
+.footer-mid-item i,.highlight-text,.highlight-title,.payment-method-item i{color: #7383b0;}
+li.current-menu-item a,.this-post-cat,.widget .cat-item a:hover, .widget li:hover:before,.ie-supports .features-item:hover .ie-support-i, .ie-supports .features-item:hover .ie-support-title,.listed li,.payment-icon:hover i,.payment-method-item i:hover,.footer-link-block a:hover,
+.ie-location,.theme-txt-color,.close-btn,.close-popup-box,.ing:before,
+.service-sm-tagline,.service-sm-title,.nav>li>a:hover, .nav>li>a:focus,.menu-item a:hover,
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus,
+.ie-pricing:hover .price-lbl-title,.print-btn i,.highlight-txt,a:hover,footer .share-icon:hover,.tip-txt,.popup-box-title,.features-item .more-link,.features-item-title,.highlight-txt,.discount-block-title,.link-tag,.support-mega-icon {color: #f15b22}
+.this-post-share,.this-post-share .share-icon,.ie-contact-info-this,
+a,.top-menu,.menu-item a,.service-details-link,.page-header
+{  color: #1a3a40;}
+.share-icon,.recent-post-date,.action-right{color: #9a9da3;}
+.ie-support-i{color: #304d52;}
+.ie-support-title,.ie-contact-title {color: #252525;}
+.btn-trial-a,.btn-trial-a:hover{color: #27ae60;}
+.lite-txt {color: #b3bcd7}
+.ie-achievement-count,.review-icon,.review-name{ color: #fdeb91;}
+.btn-plan,.popup-box-details p,.service-order-title{color: #000000}
+.price-lbl-title{color: #556080;}
+.service-order-txt{color:#414042}
+.step-txt .flex-direction-nav .flex-next{color:#ed6733}
+.iso-pdf,.site-logo{color: transparent;}
+/*text-decoration*/
+.link-tag{text-decoration: underline;}
+/*transition*/
