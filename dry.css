@@ -10,7 +10,6 @@ Text Domain: twentyfifteen
 
 Template: twentyfifteen
 */
-
 /*display and visibility hidden*/
 .review-slider .flex-control-paging{display: none;}
 /*box-sizing*/
@@ -76,7 +75,7 @@ body,.footer,.flex-active-slide,.volume-block,.ie-support-block,.ie-support,.ie-
 /*top*/
 .mask,.ie-icon,.ie-contact-info img,.overlay,.price-tag,.price-tag-bg,.fixed-menu {top: 0;}
 /*left*/
-.service-order .order-btn
+.service-order .order-btn,
 .footer,.mask, .ie-contact-info img,.service-order-img img,.overlay,.service-order .order-btn{  left: 0;}
 /*right*/
 .popup-overlay,.payment-opts,.action-group{right: 0;}
@@ -128,7 +127,7 @@ h6{font-size: 0.8125rem;}/*font-size: 13px*/
 .btn-download,.action-right,.portfolio-item-title h4,
 .ie-contact-form .wpcf7-form-control,.ie-contact-form label,
 .service-order-txt,.ie-vision .features-item-title, .ie-vision .features-item p,
-.btn-tab,.service-order .order-btn,#widget-area .cat-item a,.action-right,.portfolio-item-title h4
+.btn-tab,.service-order .order-btn,#widget-area .cat-item a,.action-right,.portfolio-item-title h4,.service-type-cat i
 {font-size: 1rem;}
 .login-menu,.price-tag h4,li,p{font-size: 1.0625rem;}/*font-size: 17px;*/
 .ie-support-block p,.up-txt,.help-topic-title,.order-btn {font-size: 1.1rem;}/*font-size: 17.6px*/
@@ -137,7 +136,7 @@ h6{font-size: 0.8125rem;}/*font-size: 13px*/
 .contact-form-sm .wpcf7-submit
 {font-size: 1.2rem;}/*font-size: 19px*/
 #partners-sec p,.volume-block-txt,.service-order-head p,.workflow-tagline,.ie-location,.fast-feature,.ecomrc-txt,
- .ie-handy-link-a
+ .ie-handy-link-a,.service-type-cat h4
 {font-size: 1.25rem;}/*font-size: 20px*/
 .more-post-share .share-icon,.theme-btn-dark,.widget-title,.license-title{font-size: 1.3rem;}/*font-size: 20.8px*/
 .btn-support,quote-btn,.acnt-btn,.lite-txt,.service-sm-tagline,
@@ -161,20 +160,20 @@ h6{font-size: 0.8125rem;}/*font-size: 13px*/
 .more-post-title{font-size: 2.77rem;}/*font-size: 44px*/
 .volume-block-title,.payment-method-item i,.page-header,.post-count,.time-feature-block-title{font-size: 3rem;}/*font-size: 48px*/
 .ie-achievement-count,.lite-txt span{font-size: 3.125rem;}/*font-size: 50px*/
-.ie-support-i { font-size: 4rem;}/*font-size: 64px*/
+.ie-support-i,.service-main-title { font-size: 4rem;}/*font-size: 64px*/
 #partners-sec h3,.page-banner-title,.page-main-title,.service-sm-title,.ecomrc-title,.service-main-title{ font-size: 4.375rem;}/*font-size: 70px*/
 .review-icon,.review-title,.support-mega-icon{font-size: 5rem;}/*font-size: 80px*/
 .big-icon{font-size: 10rem;}/*font-size: 160px*/
 /* line-height*/
 .recent-post-title{line-height: 1rem;}
 .time-lbl,.price-lbl{line-height: 1.2rem; }
-p,.discount-block-title,.license-title{line-height: 1.8675rem;}
+p,.discount-block-title,.license-title,.service-type-cat h4{line-height: 1.8675rem;}
 .features-item{line-height:1.9rem;}
 .discount-block-txt,.discount-block-list,.ecomrc-txt{line-height:2.1rem;}
 .page-banner-tagline,.workflow-tagline{line-height:2.25rem;}
 .entry-title,.more-post-title,.contact-form-sm-title{line-height: 3rem;}
 .lite-txt,.lite-txt span,.ie-achievement-count,.ie-achievement-txt,.fast-feature {line-height: 3.125rem;}
-.page-main-title,.ecomrc-title{ line-height: 5rem;}
+.page-main-title,.ecomrc-title,.service-main-title{ line-height: 5rem;}
 .workflow-title{line-height: 6.25rem;}
 
 /*font-weight*/
@@ -203,10 +202,10 @@ body{font-family: 'Palanquin', sans-serif;}
 .theme-btn-dark,.page-banner,.ie-contact-form .wpcf7-submit,
 .page-main-head,.service-order-head,#thnku-main,.close-menu,.review-wraper,
 #contact-center,.help-topic-block,.common-faq-topics-title,
-.contact-form-sm .wpcf7-submit
+.contact-form-sm .wpcf7-submit,.service-main-title
 {text-align: center;}
 .login-menu, .service-order-action{text-align: right;}
-#about-main .page-main-txt,.faq-list-li{text-align: justify;}
+#about-main .page-main-txt,.faq-list-li,.service-main-txt{text-align: justify;}
 /*text-transform*/
 .menu-item a,.order-btn,.tutorial-link,#partners-sec h3{text-transform: uppercase;}
 .btn-plan{text-transform: capitalize!important;}
@@ -232,7 +231,7 @@ body{font-family: 'Palanquin', sans-serif;}
 {color: #fff;}
 li,p,.read-more,.ecomrc-txt,::-moz-selection,::-moz-selection,#widget-area .cat-item a,#partners-sec p,.workflow-tagline,.ie-contact-form label,.time-lbl,.price-lbl{   color: #434244;}
 
-.ecomrc-title,.trial-block-title,.this-post-title,.widget-title,
+.ecomrc-title,.trial-block-title,.this-post-title,.widget-title,.service-main-title,
 .recent-post-title,.more-post-title,.license-title,#partners-sec h3,.page-main-title
 { color: #2b2f48;}
 .contact-form-sm input,.contact-form-sm textarea{color: #48516e;}
@@ -955,7 +954,16 @@ border-radius: 50%;vertical-align: middle;
     background: rgba(77,87,116,.90);
 }
 /*Page: Service*/
+.service-main {padding: 70px 0}
+.service-main-title{margin-bottom: 45px;}
+.service-main-txt{margin-left: 45px;}
+.service-main-img {border: 3px solid #efefef}
+.service-details {margin-bottom: 40px}
 .twin-service{text-decoration: underline;}
+.service-main-txt p { margin-bottom: 50px}
+.service-type-cat {margin-bottom: 20px}
+.service-type-cat p {margin-left: 25px}
+.service-type-cat i {margin-right: 10px;}
 /*Page: Misc*/
 #payment-banner{background: url(https://imageediting.com/wp-content/uploads/2017/02/image-editing-payment-options.jpg) no-repeat;   }
 #getstart-banner{background: url(images/image-editing-getting-started-banne.jpg) no-repeat;}
@@ -1251,6 +1259,8 @@ border: 5px solid #fff;
 .workflow-title { font-size: 30px;line-height: 38px;}
 #workflow .flex-control-paging{display: none;}
 .fi-menu {height: 70px;}
+.service-type-cat { margin: 10px 20px;}
+.service-main-txt { margin: 20px;}
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 768px){
@@ -1262,6 +1272,7 @@ border: 5px solid #fff;
 .partner-3{width: 133px;background: url("images/partners-sm.jpg") -137px 0 no-repeat;}
 .partner-4{width: 135px;background: url("images/partners-sm.jpg") -268px 0 no-repeat;}
 .partner-link{background-repeat: no-repeat;}
+
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 768px) and (orientation: portrait){
@@ -1377,7 +1388,10 @@ footer .item-divider{border:none}
 @media only screen and (max-width : 767px) and (orientation: landscape){
 .service-order {height: 250px;}
 }
+
 @media print {
+*,.page-banner{display: none;}
+header, .site-main{display: block;}	
 body{line-height: 1.5em;text-align: justify;}
 p,li,a,h6{font-size:13px}
 h1{font-size:32px}
