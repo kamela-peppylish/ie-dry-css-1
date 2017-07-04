@@ -1,3 +1,34 @@
+/*
+Theme Name: Twenty Fifteen Image Editing
+Theme URI: imageediting.com
+Author: Kamela Chowdhury
+Author URI: https://github.com/kamela-peppylish
+Version: 1.0
+Description: A customized version of Twenty Fifteen which allows to diplay content responsivly and best way to give user the best experince
+Tags: two-columns, left-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: twentyfifteen
+
+Template: twentyfifteen
+*/
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Marketplace
+Gist
+ @kamela-peppylish
+ Sign out
+ Watch 0
+  Star 0
+  Fork 0 kamela-peppylish/ie-dry-css-1
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Settings Insights 
+Branch: master Find file Copy pathie-dry-css-1/dry.css
+4cbae70  4 days ago
+@kamela-peppylish kamela-peppylish Update dry.css
+1 contributor
+RawBlameHistory     
+1403 lines (1357 sloc)  51.6 KB
 /*display and visibility hidden*/
 .review-slider .flex-control-paging{display: none;}
 /*box-sizing*/
@@ -807,7 +838,7 @@ background: #fefefe;
     margin-top: 0;
     background: url(images/happy-face-pricing.png) no-repeat;
 }
-.ie-pricing:hover .pricing-tbl-icon{background: url(images/ie-happy-pricing.png) -81px 0 no-repeat;}
+.ie-pricing:hover .pricing-tbl-icon{background: url(images/ie-happy-pricing.png) no-repeat;}
 .ie-hotline-list,.pricing-tbl-hrs,.pricing-tbl-tbody,.pricing-tbl-head,.pricing-tbl-price{padding-left:0;margin-bottom: 0;}
 .ie-pricing .order-btn{
     width:auto;
